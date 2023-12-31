@@ -1,5 +1,6 @@
 import { HStack, Stack, Text, Icon, Tag, Box, Button, Container, Flex } from "@chakra-ui/react"
 import { FaInfoCircle  } from "react-icons/fa";
+import { FaArrowDown, FaArrowUp } from "react-icons/fa6";
 
 
 
@@ -80,13 +81,10 @@ const PortFolio = () => (
         </HStack>
 
         <HStack>
-            <Button leftIcon ={<Icon as={FaInfoCircle } />}>Deposit</Button>
-            <Button leftIcon={<Icon as={FaInfoCircle} />}>Withdraw</Button>
+            <Button leftIcon ={<Icon as={FaArrowDown } />}>Deposit</Button>
+            <Button leftIcon={<Icon as={FaArrowUp} />}>Withdraw</Button>
         </HStack>
-        {/* <HStack>
-          <Button >Deposit</Button>
-          <Button >Withdraw</Button>
-        </HStack> */}
+        
     </HStack>
 
 )

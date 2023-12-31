@@ -1,13 +1,13 @@
 import { Card } from "@chakra-ui/react"
 import DashboardLayout from "../../components/DashboardLayout"
 
-const Support = () => {
+const TransactionPage = () => {
   return (
     <DashboardLayout>
-       <Card>Support</Card>
+       <Card>Transactions</Card>
 
     </DashboardLayout>
   )
 }
 
-export default Support
+export default TransactionPage
