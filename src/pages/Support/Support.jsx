@@ -3,7 +3,7 @@ import DashboardLayout from "../../components/DashboardLayout"
 
 const Support = () => {
   return (
-    <DashboardLayout>
+    <DashboardLayout title="Support">
        <Card>Support</Card>
 
     </DashboardLayout>
